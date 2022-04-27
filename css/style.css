@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Open+Sans:ital,wght@1,300&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 58px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(114, 224, 221);
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.slider{
+    width: 80vw;
+    margin: 10px auto;
+    margin-bottom: 12px auto;
+    overflow: hidden;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;   
+    margin: 0 15px;
+}
+.container {
+    min-height: calc(100vh - 58px - 12vh);
+}
+.lines{
+    text-align: center;
+}
+
+footer {
+    background-color: #2874f0;
+    height: 12vh;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
